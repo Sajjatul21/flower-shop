@@ -86,3 +86,47 @@ header {
 #featured {
     padding: 100px 0;
 }
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+}
+
+.section-content .flower .flower-img {
+
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 25px 0;
+    height: 500px;
+    display: flex;
+    align-items: end;
+
+}
+
+.section-content .flower .flower-img img {
+    width: 100%;
+
+}
+
+.section-content .flower .ping {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.section-content .flower .blue {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.section-content .flower .gray {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.section-content .flower p {
+    color: rgb(39, 39, 39);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-top: 16px;
+}
