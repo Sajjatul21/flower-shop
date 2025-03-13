@@ -23,7 +23,12 @@ button {
     border: none;
     border-radius: 8px;
     padding: 20px 43px 20px 43px;
+    cursor: pointer;
+    transition: all 1s;
 
+}
+button:hover{
+    background-color:  rgb(248, 6, 59);;
 }
 
 header {
