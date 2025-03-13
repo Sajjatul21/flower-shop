@@ -45,6 +45,7 @@ header {
 
 .banner .banner-text * {
     margin-bottom: 32px;
+    max-width: 531px;
 }
 
 .banner .banner-text h1 {
@@ -52,4 +53,9 @@ header {
     font-family: Lato;
     font-size: 60px;
     font-weight: 800;
+}
+
+.banner .banner-image img {
+    width: 100%;
+    vertical-align: middle;
 }
