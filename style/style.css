@@ -27,8 +27,10 @@ button {
     transition: all 1s;
 
 }
-button:hover{
-    background-color:  rgb(248, 6, 59);;
+
+button:hover {
+    background-color: rgb(248, 6, 59);
+    ;
 }
 
 header {
@@ -41,6 +43,21 @@ header {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+.section-heading {
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+.section-heading h2 {
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
 
 .banner {
     display: flex;
@@ -63,4 +80,9 @@ header {
 .banner .banner-image img {
     width: 100%;
     vertical-align: middle;
+}
+
+/* featured style */
+#featured {
+    padding: 100px 0;
 }
